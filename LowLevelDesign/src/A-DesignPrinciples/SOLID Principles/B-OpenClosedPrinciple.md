@@ -1,4 +1,4 @@
-# The Open-Closed Principle (OCP) - Complete SDE Interview Guide
+# The Open-Closed Principle (OCP)
 
 The **Open-Closed Principle (OCP)** is the "O" in **SOLID** and one of the most critical design principles you will be tested on in SDE interviews—especially during Object-Oriented Design (OOD) and Low-Level Design (LLD) rounds.
 
