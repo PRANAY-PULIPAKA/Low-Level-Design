@@ -2,7 +2,6 @@ package BehavioralDesignPattern.StrategyDesignPattern.GoodPractice;
 
 public interface PaymentStrategy {
     void processPayment();
-
 }
 class CreditCardPayment implements PaymentStrategy {
     public void processPayment() {
@@ -11,7 +10,7 @@ class CreditCardPayment implements PaymentStrategy {
 }
 
 // Concrete strategy for PayPal payment
- class PayPalPayment implements PaymentStrategy {
+class PayPalPayment implements PaymentStrategy {
     public void processPayment() {
         System.out.println("Processing PayPal payment...");
     }
@@ -23,7 +22,6 @@ class CryptoPayment implements PaymentStrategy {
         System.out.println("Processing crypto payment...");
     }
 }
-
 // Concrete strategy for Stripe payment
 class StripePayment implements PaymentStrategy {
     public void processPayment() {

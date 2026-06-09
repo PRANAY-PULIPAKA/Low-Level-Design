@@ -7,7 +7,5 @@ public class Main {
         Vehicle honda = hondaFactory.createVehicle();
         honda.start();
         honda.stop();
-
     }
-
 }
