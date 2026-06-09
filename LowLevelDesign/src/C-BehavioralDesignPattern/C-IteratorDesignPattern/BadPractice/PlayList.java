@@ -14,7 +14,7 @@ public class PlayList {
     }
     public void playPlayList(boolean shuffle){
         if(shuffle){
-            System.out.println("Shiff;ing Playlist");
+            System.out.println("Shiffling Playlist");
         } else {
             for(int i = 0; i < songs.size(); i++) {
                 System.out.println("Playing songs: " + songs.get(i));

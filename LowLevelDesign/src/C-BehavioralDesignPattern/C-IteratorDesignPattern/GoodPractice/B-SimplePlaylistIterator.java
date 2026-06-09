@@ -1,6 +1,5 @@
 package BehavioralDesignPattern.IteratorDesignPattern.GoodPractice;
 
-
 public class SimplePlaylistIterator implements PlaylistIterator{
 
     private Playlist playlist;
